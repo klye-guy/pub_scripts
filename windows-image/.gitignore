@@ -1,0 +1,15 @@
+# Built media, passwords, your real configs, and installers stay local
+output/
+work/
+*.iso
+*.wim
+*.swm
+*.esd
+*.passwords.txt
+*.build.log
+*.unattend.xml
+configs/*.psd1
+!configs/*.example.psd1
+payload/
+installers/
+drivers/
