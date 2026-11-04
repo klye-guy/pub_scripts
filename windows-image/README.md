@@ -10,7 +10,7 @@ It's built for one base config with a small overlay per site, so you can keep a 
 | [`engine/pe-install.cmd`](engine/pe-install.cmd) | Runs in WinPE: chooses and partitions the disk, applies the image |
 | [`engine/Provision.ps1`](engine/Provision.ps1) | Runs on first boot: apps, accounts, domain, security, updates, and more |
 | [`engine/Register-Provision.ps1`](engine/Register-Provision.ps1) | Creates the startup task that runs `Provision.ps1` |
-| [`configs/`](configs/) | A commented base, a clinic overlay, and a lab VM |
+| [`configs/`](configs/) | A commented base, a clinic overlay, a lab VM, and a Civil Air Patrol squadron workstation built to CAPR 120-1 |
 
 Works with Windows 10 and 11, and Windows Server 2019, 2022, and 2025.
 
